@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Estudio Jurídico — Portafolio Profesional</title>
+  <meta name="description" content="Sitio web de presentación profesional de Daniel Arancibia Jorquera, egresado de Derecho, servicios legales, currículum descargable y contacto." />
+  <style>
+    :root{--bg:#f9fafb;--text:#1f2937;--accent:#2563eb;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0;background:var(--bg);color:var(--text);line-height:1.6}
+    .container{max-width:980px;margin:0 auto;padding:20px}
+    header{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;padding:20px 0}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:56px;height:56px;border-radius:10px;background:var(--accent);display:flex;align-items:center;justify-content:center;color:white;text-transform:uppercase;font-weight:700;font-size:20px}
+    h1{font-size:24px;margin:0}
+    p.lead{color:var(--muted);margin:6px 0 0}
+
+    nav ul{list-style:none;display:flex;gap:18px;padding:0;margin:0}
+    nav a{text-decoration:none;color:var(--text);font-weight:500}
+
+    .hero{padding:60px 20px;text-align:center;background:linear-gradient(135deg,var(--accent),#1d4ed8);color:white;border-radius:14px;margin-bottom:30px}
+    .hero h2{font-size:32px;margin:0 0 10px}
+    .hero p{margin:0;font-size:18px}
+
+    .card{background:white;border-radius:14px;padding:20px;margin-bottom:22px;box-shadow:0 4px 12px rgba(0,0,0,0.08)}
+    .section-title{font-weight:700;margin-bottom:12px;font-size:20px}
+
+    ul.services{list-style:none;padding:0;margin:0}
+    ul.services li{margin-bottom:10px;padding-left:20px;position:relative}
+    ul.services li::before{content:"✔";position:absolute;left:0;color:var(--accent)}
+
+    .contact{background:var(--accent);color:white;text-align:center;padding:30px;border-radius:14px}
+    .contact a{display:inline-block;margin-top:10px;padding:10px 16px;background:white;color:var(--accent);border-radius:8px;text-decoration:none;font-weight:600}
+
+    .cv-download{text-align:center;margin:20px 0}
+    .cv-download a{padding:12px 20px;background:var(--accent);color:white;text-decoration:none;border-radius:8px;font-weight:600;display:inline-block}
+
+    footer{margin-top:30px;color:var(--muted);font-size:14px;text-align:center;padding:10px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">DAJ</div>
+        <div>
+          <h1>Daniel Arancibia Jorquera</h1>
+          <p class="lead">Egresado de Derecho — Servicios Legales</p>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#sobre">Sobre mí</a></li>
+          <li><a href="#cv">Currículum</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2>Asesoría Legal Integral</h2>
+      <p>Compromiso, responsabilidad y dedicación para representar tus intereses legales con excelencia.</p>
+    </section>
+
+    <section class="card" id="servicios">
+      <h3 class="section-title">Servicios</h3>
+      <ul class="services">
+        <li>Redacción y revisión de contratos.</li>
+        <li>Asesoría en derecho civil y comercial.</li>
+        <li>Tramitación de causas judiciales.</li>
+        <li>Orientación legal preventiva para empresas y personas.</li>
+      </ul>
+    </section>
+
+    <section class="card" id="sobre">
+      <h3 class="section-title">Sobre mí</h3>
+      <p>Soy Daniel Arancibia Jorquera, egresado de Derecho con vocación por la justicia y la defensa de los derechos de las personas. Me destaco por mi responsabilidad, capacidad de análisis y compromiso con cada caso. Mi objetivo es iniciar mi trayectoria profesional ofreciendo servicios de calidad que generen confianza y resultados.</p>
+    </section>
+
+    <section class="card" id="cv">
+      <h3 class="section-title">Currículum Vitae</h3>
+      <p>Puedes descargar mi CV actualizado para más información sobre mi formación y experiencia.</p>
+      <div class="cv-download">
+        <a href="cv-daniel-arancibia.pdf" download>Descargar CV en PDF</a>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <h3>Contacto</h3>
+      <p>¿Necesitas asesoría legal? Conversemos.</p>
+      <p>Email: <strong>daniel.arancibia@example.com</strong></p>
+      <p>Teléfono: <strong>+56 9 1234 5678</strong></p>
+      <a href="mailto:daniel.arancibia@example.com">Escríbeme</a>
+    </section>
+
+    <footer>
+      © 2025 Daniel Arancibia Jorquera — Servicios Legales
+    </footer>
+  </div>
+</body>
+</html>
